@@ -41,11 +41,20 @@ console.log(PrimerCongnom.length);
 */
 
 //EX10
+/*
 const str = "Luca Andrade Sosa"
 const PrimeraMeitat = str.slice(0, 5)
 const SegonaMeitat = str.slice(7, 17)
 
 console.log(PrimeraMeitat + SegonaMeitat)
+*/
+
+//EX11
+
+var SenseDefinir = Undefined;
+var nula = null;
+
+console.log(Undefined + null)
 
 
 
