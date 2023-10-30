@@ -28,5 +28,8 @@ console.log(x);
  */
 
 //Ex5
+const x = 20;
+x = "Hola";
+console.log(x)
 
 
