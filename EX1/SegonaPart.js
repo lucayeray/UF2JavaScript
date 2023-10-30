@@ -24,8 +24,22 @@ console.log("La hipotenusa és: " + hipotenusa)
 */
 
 //EX8
-
+/*
 var enter = 5;
 var string = "Holaa";
 var divisio = enter / string;
-console.log(divisio)
+console.log(divisio);
+ */
+
+//Ex9
+
+var NomComplet = "Luca Yeray Andrade Sosa";
+var Numparaules = NomComplet.split(" ");
+const PrimerCongnom = Numparaules[2];
+
+console.log(PrimerCongnom.length);
+
+
+
+
+
