@@ -63,11 +63,25 @@ const boolean = true;
 const Explicit = String(boolean);
 
 console.log(Explicit);
-*/
+
 //EX12.2
 
 const boolean = true;
 const Implicit = "El valor de booleana és: " + boolean;
 
 console.log(Implicit);
+*/
 
+//EX13.1
+
+const string = "true";
+const booleanaExpl = Boolean(string);
+
+console.log(booleanaExpl);
+
+
+//EX13.2
+const string = "true";
+const booleanaImpl = !!string;
+
+console.log(booleanaImpl);
