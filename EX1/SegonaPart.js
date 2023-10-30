@@ -50,12 +50,24 @@ console.log(PrimeraMeitat + SegonaMeitat)
 */
 
 //EX11
-
+/*
 var SenseDefinir = Undefined;
 var nula = null;
 
 console.log(Undefined + null)
+*/
 
+//EX12.1
+/*
+const boolean = true;
+const Explicit = String(boolean);
 
+console.log(Explicit);
+*/
+//EX12.2
 
+const boolean = true;
+const Implicit = "El valor de booleana és: " + boolean;
+
+console.log(Implicit);
 
