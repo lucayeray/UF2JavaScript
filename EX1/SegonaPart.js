@@ -32,13 +32,20 @@ console.log(divisio);
  */
 
 //Ex9
-
+/*
 var NomComplet = "Luca Yeray Andrade Sosa";
 var Numparaules = NomComplet.split(" ");
 const PrimerCongnom = Numparaules[2];
 
 console.log(PrimerCongnom.length);
+*/
 
+//EX10
+const str = "Luca Andrade Sosa"
+const PrimeraMeitat = str.slice(0, 5)
+const SegonaMeitat = str.slice(7, 17)
+
+console.log(PrimeraMeitat + SegonaMeitat)
 
 
 
