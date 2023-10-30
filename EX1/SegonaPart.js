@@ -73,7 +73,7 @@ console.log(Implicit);
 */
 
 //EX13.1
-
+/*
 const string = "true";
 const booleanaExpl = Boolean(string);
 
@@ -85,3 +85,19 @@ const string = "true";
 const booleanaImpl = !!string;
 
 console.log(booleanaImpl);
+*/
+
+//EX14.1
+
+const booleanaExpl = true;
+const numero = Number(booleanaExpl);
+
+console.log(numero);
+
+
+//EX14.2
+
+const booleanaImpl = true;
+const numero = booleanaImpl + 20;
+
+console.log(numero);
